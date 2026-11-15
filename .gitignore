@@ -2,3 +2,4 @@
 .DS_Store
 preview*.png
 *.zip
+__pycache__/

@@ -17,6 +17,15 @@ No build or package installation is required. All website paths are relative to 
 
 ## Migration notes
 
-See `mirror-report.json` for exactly which pages and assets were copied and any download failures. The homepage, English and Turkish landing pages, six English course modules, and blog are hosted locally. The Russian landing page and Turkish module URLs return HTTP 404 on Tilda; their links remain pointed to the original URLs pending publication of the missing source pages. Tilda-hosted blog feeds, analytics, forms, and embedded services may still depend on Tilda; newsletter submission has not been verified on a new domain. Static hosting alone does not replace those services.
+See `mirror-report.json` for exactly which pages and assets were copied and any download failures. The homepage, blog, three language landing pages (English, Turkish, Russian), and all 18 module editions are hosted locally. The Russian landing page and the Turkish/Russian modules were generated from the available English source because those editions were not published on Tilda. These pages are labeled as automatic translations. Translation dictionaries are bundled locally; visitors do not call a translation service. Text inside source images, citations, and embedded audio/video can remain in the original language. Tilda-hosted blog feeds, analytics, forms, and embedded services may still depend on Tilda; newsletter submission has not been verified on a new domain. Static hosting alone does not replace those services.
 
 The original Tilda markup and scripts are preserved for visual fidelity. Edit the HTML in `dist/` to change the content. `scripts/mirror.py` is an optional download utility; rerunning it overwrites the copied pages.
+
+
+## Course navigation and translations
+
+Shared navigation provides a home link, all six modules, and EN/TR/RU switching on each course page. Embedded exercises run in isolated scopes so controls in one activity cannot attach handlers to another activity. Answer values remain in their source form; only presentation text is translated.
+
+The `scripts/` utilities are development helpers, not deployment dependencies. `localize-course.py` extracts public source text and uses a translation service during generation; its JavaScript extraction helper expects Acorn installed with `npm install --prefix /tmp/verification-localize acorn`. `prepare-course-editions.py` applies reviewed terminology, builds the language navigation, and prepares the missing language editions. `finalize-course.py` renders static translations and isolates exercise scripts. Run them in that order after mirroring. Do not rerun the mirror alone on the completed editions: it overwrites migrated source pages.
+
+`course-check-report.json` records browser checks across 21 language/module pages, including quiz interaction and language checks. The source-download failures in `mirror-report.json` describe missing original Tilda pages; the final missing editions were generated locally as described above.

@@ -41,5 +41,47 @@
       "url": "https://kahramanhumeyrafinal.tilda.ws/module6/tr",
       "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module6/tr']' returned non-zero exit status 56."
     }
-  ]
+  ],
+  "generated_editions": [
+    "ru/index.html",
+    "module1/tr/index.html",
+    "module1/ru/index.html",
+    "module2/tr/index.html",
+    "module2/ru/index.html",
+    "module3/tr/index.html",
+    "module3/ru/index.html",
+    "module4/tr/index.html",
+    "module4/ru/index.html",
+    "module5/tr/index.html",
+    "module5/ru/index.html",
+    "module6/tr/index.html",
+    "module6/ru/index.html"
+  ],
+  "final_pages": [
+    "index.html",
+    "module4/ru/index.html",
+    "module4/en/index.html",
+    "module4/tr/index.html",
+    "module3/ru/index.html",
+    "module3/en/index.html",
+    "module3/tr/index.html",
+    "verificationliteracy/homepage/index.html",
+    "module2/ru/index.html",
+    "module2/en/index.html",
+    "module2/tr/index.html",
+    "module5/ru/index.html",
+    "module5/en/index.html",
+    "module5/tr/index.html",
+    "ru/index.html",
+    "blog/index.html",
+    "en/index.html",
+    "module6/ru/index.html",
+    "module6/en/index.html",
+    "module6/tr/index.html",
+    "module1/ru/index.html",
+    "module1/en/index.html",
+    "module1/tr/index.html",
+    "tr/index.html"
+  ],
+  "note": "Missing source editions were generated as labeled automatic translations of the available English course. Download failures above are historical source availability records."
 }

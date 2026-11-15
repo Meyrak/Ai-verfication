@@ -1,0 +1,359 @@
+[
+  {
+    "route": "en/",
+    "ready": true,
+    "title": "AI-Assisted Verification Coursebook",
+    "heading": "📖 Verification & AI Literacy",
+    "buttons": 9,
+    "language": "en",
+    "links": [],
+    "interacted": null,
+    "exceptions": []
+  },
+  {
+    "route": "module1/en/",
+    "ready": true,
+    "title": "Module 1 — Verification Mindset and AI Literacy",
+    "heading": "",
+    "buttons": 38,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "✅ Correct approach: AI excels at pattern recognition, but human oversight is critical for context and final verification (HITL).",
+        "⚠️ Ideal: Human. AI still struggles with subtle linguistic and cultural context; human judgment is essential.",
+        "✅ Correct approach: AI speeds up transcription, but journalists must review for accuracy (especially names/accents)."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module2/en/",
+    "ready": true,
+    "title": "Module 2 — Smart Skepticism, Ethics, and Human-in-the-Loop (HITL)",
+    "heading": "",
+    "buttons": 34,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 34,
+      "feedback": [
+        "✅ Correct! 'The Moscow Verification Gazette' is fabricated (hallucination). Always verify sources.",
+        "❌ Incorrect. Correct: Algorithmic bias (data/representation)",
+        "❌ Incorrect. Correct: Coverage / sampling bias"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module3/en/",
+    "ready": true,
+    "title": "Module 3 — The Verifier’s Toolkit",
+    "heading": "",
+    "buttons": 32,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 29,
+      "feedback": [
+        "❌ Incorrect. Best tool: Reverse image search",
+        "❌ Incorrect. Best tool: Keyframe extraction (InVID)",
+        "❌ Incorrect. Best tool: Google Fact Check Explorer"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module4/en/",
+    "ready": true,
+    "title": "Module 4 — Applied Text and Claim Verification",
+    "heading": "",
+    "buttons": 33,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 33,
+      "feedback": [
+        "✅ Correct. The claim exaggerates. IPCC says 15–20 cm since 1900, not 30 cm since 1950. Always check primary sources.",
+        "⚠️ The best answer is \"verified\". Verified: WHO's April 2020 scientific brief stated airborne transmission only under certain conditions. Context matters.",
+        "⚠️ The best answer is \"verified\". Nearly doubled – the claim is substantially correct. Always compare rates, not just raw numbers."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module5/en/",
+    "ready": true,
+    "title": "Module 5 — Visual, Video, and Deepfake Verification",
+    "heading": "",
+    "buttons": 38,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "📊 0/7 indicators observed. 🟢 LOW risk – but always verify using additional tools (keyframe extraction, reverse search).",
+        "❌ Incorrect. Keyframes are individual frames extracted from a video (e.g., every 2 seconds) used for reverse image search to find earlier appearances or different contexts.",
+        "❌ Incorrect. InVID/WeVerify is a browser extension that extracts keyframes, analyzes metadata, and helps verify videos."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module6/en/",
+    "ready": true,
+    "title": "Module 6 — Integrated Workflow Scenarios",
+    "heading": "",
+    "buttons": 38,
+    "language": "en",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "⚠️ Verify with official sources or multiple independent videos showing actual canisters. Text claims alone are insufficient.",
+        "⚠️ Date and location mismatch prove the image is reused from an old event. Always check metadata.",
+        "⚠️ Reverse image search of keyframes can debunk false claims. Provide correct context."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "tr/",
+    "ready": true,
+    "title": "Yapay Zekâ Destekli Doğrulama Ders Kitabı",
+    "heading": "📖 Bilgi Bozukluğu & Doğrulama",
+    "buttons": 8,
+    "language": "tr",
+    "links": [],
+    "interacted": null,
+    "exceptions": []
+  },
+  {
+    "route": "module1/tr/",
+    "ready": true,
+    "title": "Modül 1 — Doğrulama Zihniyeti ve Yapay Zeka Okuryazarlığı",
+    "heading": "",
+    "buttons": 38,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "✅ Doğru yaklaşım: Yapay zeka, model tanıma konusunda üstündür ancak bağlam ve son doğrulama (HITL) için insan gözetimi kritik öneme sahiptir.",
+        "⚠️ İdeal: İnsan. Yapay zekâ still struggles with subtle linguistic and cultural context; human judgment is essential.",
+        "✅ Doğru yaklaşım: AI, transkripsiyonu hızlandırır, ancak gazetecilerin doğruluğu (özellikle isimler/aksanlar) açısından incelemesi gerekir."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module2/tr/",
+    "ready": true,
+    "title": "Modül 2 — Akıllı Şüphecilik, Etik ve Döngüdeki İnsan (HITL)",
+    "heading": "",
+    "buttons": 34,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 34,
+      "feedback": [
+        "✅ Doğru! 'Moskova Doğrulama Gazetesi' uydurmadır (halüsinasyon). Her zaman kaynakları doğrulayın.",
+        "❌ Yanlış. Doğru yanıt: Algoritmik sapma (veri/temsil)",
+        "❌ Yanlış. Doğru yanıt: Kapsam / örnekleme sapması"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module3/tr/",
+    "ready": true,
+    "title": "Modül 3 — Doğrulayıcının Araç Seti",
+    "heading": "",
+    "buttons": 32,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 29,
+      "feedback": [
+        "❌ Yanlış. En uygun araç: Tersine görsel arama",
+        "❌ Yanlış. En uygun araç: Anahtar kare çıkarma (InVID)",
+        "❌ Yanlış. En uygun araç: Google Doğruluk Kontrolü Gezgini"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module4/tr/",
+    "ready": true,
+    "title": "Modül 4 — Uygulamalı Metin ve İddia Doğrulaması",
+    "heading": "",
+    "buttons": 33,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 33,
+      "feedback": [
+        "✅ Doğru. İddia abartılı. IPCC, 1950'den bu yana 30 cm değil, 1900'den bu yana 15-20 cm diyor. Daima birincil kaynakları kontrol edin.",
+        "⚠️ The best answer is \"doğrulandı\". Doğrulandı: DSÖ'nün Nisan 2020 bilimsel özetinde hava yoluyla bulaşmanın yalnızca belirli koşullar altında olduğu belirtildi. Bağlam önemlidir.",
+        "⚠️ The best answer is \"doğrulandı\". Neredeyse iki katına çıktı – iddia büyük ölçüde doğru. Yalnızca ham rakamları değil, her zaman oranları karşılaştırın."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module5/tr/",
+    "ready": true,
+    "title": "Modül 5 — Görsel, Videosu ve Deepfake Doğrulaması",
+    "heading": "",
+    "buttons": 38,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "📊 0/7 göstergeleri gözlemlendi. 🟢 DÜŞÜK risk – ancak her zaman ek araçları (anahtar kare çıkarma, geriye doğru arama) kullanarak doğrulayın.",
+        "❌ Yanlış. Anahtar Kareler, daha önceki görünümleri veya farklı bağlamları bulmak amacıyla ters görüntü araması için kullanılan bir videodan (örneğin her 2 saniyede bir) çıkarılan ayrı karelerdir.",
+        "❌ Yanlış. InVID/WeVerify, ana kareleri çıkaran, meta verileri analiz eden ve videoların doğrulanmasına yardımcı olan bir tarayıcı uzantısıdır."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module6/tr/",
+    "ready": true,
+    "title": "Modül 6 — Entegre İş Akışı Senaryoları",
+    "heading": "",
+    "buttons": 38,
+    "language": "tr",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "⚠️ Resmi kaynaklarla veya gerçek kutuları gösteren birden fazla bağımsız videoyla doğrulayın. Metin iddiaları tek başına yeterli değildir.",
+        "⚠️ Tarih ve konum uyuşmazlığı, görüntünün eski bir etkinlikten yeniden kullanıldığını kanıtlıyor. Her zaman meta verileri kontrol edin.",
+        "⚠️ Anahtar karelerin ters görsel araması, yanlış iddiaları çürütebilir. Doğru bağlamı sağlayın."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "ru/",
+    "ready": true,
+    "title": "Курс по проверке информации с помощью ИИ",
+    "heading": "📖 Проверка и грамотность в области искусственного интеллекта",
+    "buttons": 9,
+    "language": "ru",
+    "links": [],
+    "interacted": null,
+    "exceptions": []
+  },
+  {
+    "route": "module1/ru/",
+    "ready": true,
+    "title": "Модуль 1. Верификационное мышление и грамотность в области искусственного интеллекта",
+    "heading": "",
+    "buttons": 38,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "✅ Правильный подход: ИИ превосходно справляется с распознаванием образов, но человеческий контроль имеет решающее значение для контекста и окончательной проверки (HITL).",
+        "⚠️ Идеально: Человек. ИИ still struggles with subtle linguistic and cultural context; human judgment is essential.",
+        "✅ Правильный подход: ИИ ускоряет транскрипцию, но журналистам приходится проверять точность (особенно имена/ударения)."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module2/ru/",
+    "ready": true,
+    "title": "Модуль 2 — Умный скептицизм, этика и участие человека в цикле (HITL)",
+    "heading": "",
+    "buttons": 34,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 34,
+      "feedback": [
+        "✅ Верно! «Московские проверочные ведомости» сфабрикованы (галлюцинация). Всегда проверяйте источники.",
+        "❌ Неверно. Правильный ответ: Алгоритмическая погрешность (данные/представление)",
+        "❌ Неверно. Правильный ответ: Охват / систематическая ошибка выборки"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module3/ru/",
+    "ready": true,
+    "title": "Модуль 3 — Инструментарий верификатора",
+    "heading": "",
+    "buttons": 32,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 29,
+      "feedback": [
+        "❌ Неверно. Подходящий инструмент: Обратный поиск изображений",
+        "❌ Неверно. Подходящий инструмент: Извлечение ключевых кадров (InVID)",
+        "❌ Неверно. Подходящий инструмент: Google Fact Check Explorer"
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module4/ru/",
+    "ready": true,
+    "title": "Модуль 4. Проверка прикладного текста и претензий",
+    "heading": "",
+    "buttons": 33,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 33,
+      "feedback": [
+        "✅ Верно. Это утверждение преувеличивает. МГЭИК утверждает, что с 1900 года это 15–20 см, а не 30 см с 1950 года. Всегда проверяйте первоисточники.",
+        "⚠️ The best answer is \"проверено\". Подтверждено: в научном обзоре ВОЗ от апреля 2020 г. говорится, что передача вируса воздушно-капельным путем происходит только при определенных условиях. Контекст имеет значение.",
+        "⚠️ The best answer is \"проверено\". Почти вдвое – утверждение по существу верно. Всегда сравнивайте ставки, а не просто цифры."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module5/ru/",
+    "ready": true,
+    "title": "Модуль 5 — Визуальная, видео и проверка Deepfake",
+    "heading": "",
+    "buttons": 38,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "📊 0/7 наблюдаются. 🟢 НИЗКИЙ риск – но всегда проверяйте с помощью дополнительных инструментов (извлечение ключевых кадров, обратный поиск).",
+        "❌ Неверно. Ключевые кадры — это отдельные кадры, извлеченные из видео (например, каждые 2 секунды), используемые для обратного поиска изображений с целью поиска более ранних появлений или различных контекстов.",
+        "❌ Неверно. InVID/WeVerify — это расширение для браузера, которое извлекает ключевые кадры, анализирует метаданные и помогает проверять видео."
+      ]
+    },
+    "exceptions": []
+  },
+  {
+    "route": "module6/ru/",
+    "ready": true,
+    "title": "Модуль 6. Интегрированные сценарии рабочего процесса",
+    "heading": "",
+    "buttons": 38,
+    "language": "ru",
+    "links": [],
+    "interacted": {
+      "count": 38,
+      "feedback": [
+        "⚠️ Проверьте официальные источники или несколько независимых видеороликов, демонстрирующих настоящие канистры. Одних лишь текстовых претензий недостаточно.",
+        "⚠️ Несовпадение даты и местоположения доказывает, что изображение повторно использовано со старого мероприятия. Всегда проверяйте метаданные.",
+        "⚠️ Обратный поиск по изображению ключевых кадров может опровергнуть ложные утверждения. Укажите правильный контекст."
+      ]
+    },
+    "exceptions": []
+  }
+]
