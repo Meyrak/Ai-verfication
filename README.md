@@ -1,34 +1,58 @@
-# Ai-verfication — Verification Literacy website
+# AI-Assisted Verification Literacy
 
-A static copy of the owner’s Tilda website, preserving its original HTML, visual styling, and responsive layouts. The public website is in `dist/`.
+An interactive, multilingual coursebook for journalists, journalism students, educators, and media professionals. Learn to assess claims, investigate visual content, evaluate AI-generated information, and make responsible editorial decisions.
 
-## Preview
+**Live website:** https://meyrak.github.io/Ai-verfication/
 
-Run `python3 -m http.server 8000 --directory dist`, then open http://localhost:8000.
+## Languages
 
-## Publish on GitHub Pages
+- [English](https://meyrak.github.io/Ai-verfication/en/)
+- [Türkçe](https://meyrak.github.io/Ai-verfication/tr/)
+- [Русский](https://meyrak.github.io/Ai-verfication/ru/)
 
-1. Upload this project to a new GitHub repository, including the `.github` directory.
-2. In the repository, open **Settings → Pages** and select **GitHub Actions** as the source.
-3. Push to `main`, or run **Publish website to GitHub Pages** from the Actions tab.
-4. The workflow displays the published URL when deployment succeeds.
+Each language edition includes six modules. The navigation bar provides direct module access and language switching in the same browser tab.
 
-No build or package installation is required. All website paths are relative to support repository subdirectories.
+## Course modules
 
-## Migration notes
+1. **Verification Mindset and AI Literacy** — critical thinking, information disorder, and human oversight.
+2. **Smart Skepticism, Ethics, and Human-in-the-Loop** — hallucinations, bias, transparency, privacy, and accountability.
+3. **The Verifier’s Toolkit** — tool selection, reverse image search, source checks, and investigation workflows.
+4. **Applied Text and Claim Verification** — evaluating claims, quotations, statistics, and source credibility.
+5. **Visual, Video, and Deepfake Verification** — keyframes, metadata, visual inconsistencies, and synthetic media.
+6. **Integrated Workflow Scenarios** — newsroom simulations, deadline decisions, and a final assessment.
 
-See `mirror-report.json` for exactly which pages and assets were copied and any download failures. The homepage, blog, three language landing pages (English, Turkish, Russian), and all 18 module editions are hosted locally. The Russian landing page and the Turkish/Russian modules were generated from the available English source because those editions were not published on Tilda. These pages are labeled as automatic translations. Translation dictionaries are bundled locally; visitors do not call a translation service. Text inside source images, citations, and embedded audio/video can remain in the original language. Tilda-hosted blog feeds, analytics, forms, and embedded services may still depend on Tilda; newsletter submission has not been verified on a new domain. Static hosting alone does not replace those services.
+Activities include quizzes, flashcards, checklists, and branching newsroom scenarios. The [blog](https://meyrak.github.io/Ai-verfication/blog/) provides additional reading.
 
-The original Tilda markup and scripts are preserved for visual fidelity. Edit the HTML in `dist/` to change the content. `scripts/mirror.py` is an optional download utility; rerunning it overwrites the copied pages.
+## Preview locally
 
+From the project directory, run:
 
-## Course navigation and translations
+```sh
+python3 -m http.server 8000 --directory dist
+```
 
-Shared navigation provides a home link, all six modules, and EN/TR/RU switching on each course page. Embedded exercises run in isolated scopes so controls in one activity cannot attach handlers to another activity. Answer values remain in their source form; only presentation text is translated.
+Open http://localhost:8000 in your browser. No package installation or build step is required.
 
-The `scripts/` utilities are development helpers, not deployment dependencies. `localize-course.py` extracts public source text and uses a translation service during generation; its JavaScript extraction helper expects Acorn installed with `npm install --prefix /tmp/verification-localize acorn`. `prepare-course-editions.py` applies reviewed terminology, builds the language navigation, and prepares the missing language editions. `finalize-course.py` renders static translations and isolates exercise scripts. Run them in that order after mirroring. Do not rerun the mirror alone on the completed editions: it overwrites migrated source pages.
+## Edit and publish
 
-`course-check-report.json` records browser checks across 21 language/module pages, including quiz interaction and language checks. The source-download failures in `mirror-report.json` describe missing original Tilda pages; the final missing editions were generated locally as described above.
+The website files are in `dist/`. Edit the corresponding HTML pages, stylesheets, or translation dictionaries, then commit and push to `main`.
 
+The included workflow, `.github/workflows/pages.yml`, publishes `dist/` through GitHub Pages. The repository’s **Settings → Pages → Source** must be set to **GitHub Actions**. Deployment progress appears in the repository’s **Actions** tab.
 
-Platform promotion blocks, platform favicons, old page metadata, DNS-prefetch hints, and analytics loaders are removed by `scripts/remove-platform-branding.py`. The local layout and exercise assets remain available for compatibility. Run this cleanup after regeneration.
+## Project files
+
+- `dist/index.html` — homepage.
+- `dist/en/`, `dist/tr/`, `dist/ru/` — language landing pages.
+- `dist/module1/` through `dist/module6/` — English, Turkish, and Russian module editions.
+- `dist/blog/` — blog page.
+- `dist/assets/` — local images, fonts, styles, scripts, and translation dictionaries.
+- `scripts/` — optional content preparation and browser-check utilities.
+- `course-check-report.json` and `navigation-check-report.json` — recorded browser checks.
+
+## Translation and service notes
+
+Some language editions were automatically translated from the English course and are labeled accordingly. Translation dictionaries are served locally. Text inside images, quotations, and embedded audio or video may remain in its original language.
+
+Embedded media requires an internet connection. Newsletter submission is not configured as a working subscription service.
+
+Development utilities can overwrite generated pages. Back up manual content changes before running them. They are not needed for normal editing or deployment.
