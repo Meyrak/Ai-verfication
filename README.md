@@ -29,3 +29,6 @@ Shared navigation provides a home link, all six modules, and EN/TR/RU switching 
 The `scripts/` utilities are development helpers, not deployment dependencies. `localize-course.py` extracts public source text and uses a translation service during generation; its JavaScript extraction helper expects Acorn installed with `npm install --prefix /tmp/verification-localize acorn`. `prepare-course-editions.py` applies reviewed terminology, builds the language navigation, and prepares the missing language editions. `finalize-course.py` renders static translations and isolates exercise scripts. Run them in that order after mirroring. Do not rerun the mirror alone on the completed editions: it overwrites migrated source pages.
 
 `course-check-report.json` records browser checks across 21 language/module pages, including quiz interaction and language checks. The source-download failures in `mirror-report.json` describe missing original Tilda pages; the final missing editions were generated locally as described above.
+
+
+Platform promotion blocks, platform favicons, old page metadata, DNS-prefetch hints, and analytics loaders are removed by `scripts/remove-platform-branding.py`. The local layout and exercise assets remain available for compatibility. Run this cleanup after regeneration.
