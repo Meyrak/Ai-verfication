@@ -1,4 +1,4 @@
-# Verification Literacy website
+# Ai-verfication — Verification Literacy website
 
 A static copy of the owner’s Tilda website, preserving its original HTML, visual styling, and responsive layouts. The public website is in `dist/`.
 
