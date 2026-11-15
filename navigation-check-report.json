@@ -1,0 +1,254 @@
+[
+  {
+    "lang": "en",
+    "width": 1440,
+    "buttons": [
+      {
+        "label": "Home",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Module 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/en/index.html"
+      },
+      {
+        "label": "Module 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/en/index.html"
+      },
+      {
+        "label": "Module 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/en/index.html"
+      },
+      {
+        "label": "Module 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/en/index.html"
+      },
+      {
+        "label": "Module 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/en/index.html"
+      },
+      {
+        "label": "Module 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/en/index.html"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "lang": "tr",
+    "width": 1440,
+    "buttons": [
+      {
+        "label": "Ana sayfa",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Modül 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/tr/index.html"
+      },
+      {
+        "label": "Modül 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/tr/index.html"
+      },
+      {
+        "label": "Modül 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/tr/index.html"
+      },
+      {
+        "label": "Modül 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/tr/index.html"
+      },
+      {
+        "label": "Modül 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/tr/index.html"
+      },
+      {
+        "label": "Modül 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/tr/index.html"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "lang": "ru",
+    "width": 1440,
+    "buttons": [
+      {
+        "label": "Главная",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Модуль 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/ru/index.html"
+      },
+      {
+        "label": "Модуль 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/ru/index.html"
+      },
+      {
+        "label": "Модуль 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/ru/index.html"
+      },
+      {
+        "label": "Модуль 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/ru/index.html"
+      },
+      {
+        "label": "Модуль 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/ru/index.html"
+      },
+      {
+        "label": "Модуль 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/ru/index.html"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "buttons": [
+      {
+        "label": "Home",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Module 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/en/index.html"
+      },
+      {
+        "label": "Module 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/en/index.html"
+      },
+      {
+        "label": "Module 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/en/index.html"
+      },
+      {
+        "label": "Module 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/en/index.html"
+      },
+      {
+        "label": "Module 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/en/index.html"
+      },
+      {
+        "label": "Module 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/en/index.html"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "lang": "tr",
+    "width": 390,
+    "buttons": [
+      {
+        "label": "Ana sayfa",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Modül 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/tr/index.html"
+      },
+      {
+        "label": "Modül 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/tr/index.html"
+      },
+      {
+        "label": "Modül 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/tr/index.html"
+      },
+      {
+        "label": "Modül 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/tr/index.html"
+      },
+      {
+        "label": "Modül 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/tr/index.html"
+      },
+      {
+        "label": "Modül 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/tr/index.html"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "lang": "ru",
+    "width": 390,
+    "buttons": [
+      {
+        "label": "Главная",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/index.html"
+      },
+      {
+        "label": "Модуль 1",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module1/ru/index.html"
+      },
+      {
+        "label": "Модуль 2",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module2/ru/index.html"
+      },
+      {
+        "label": "Модуль 3",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module3/ru/index.html"
+      },
+      {
+        "label": "Модуль 4",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module4/ru/index.html"
+      },
+      {
+        "label": "Модуль 5",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module5/ru/index.html"
+      },
+      {
+        "label": "Модуль 6",
+        "visible": true,
+        "href": "http://127.0.0.1:8000/module6/ru/index.html"
+      }
+    ],
+    "overflow": false
+  }
+]

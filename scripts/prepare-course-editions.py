@@ -19,8 +19,9 @@ for lang in ['en','tr','ru']:
   s=re.sub(r'<html([^>]*) lang="[^"]*">',lambda m:'<html'+m.group(1)+f' lang="{lang}">',s,count=1)
   root='../../' if i else '../';route=f'module{i}/' if i else ''
   home,mods=labels[lang]
+  module_label={'en':'Module','tr':'Modül','ru':'Модуль'}[lang]
   nav=f'<nav class="course-navigation" aria-label="Course navigation"><a href="{root}index.html">{home}</a><span>{mods}:</span>'
-  nav+=''.join(f'<a href="{root}module{n}/{lang}/index.html">{n}</a>' for n in range(1,7))
+  nav+=''.join(f'<a href="{root}module{n}/{lang}/index.html">{module_label} {n}</a>' for n in range(1,7))
   nav+='<span class="course-languages">'+''.join(f'<a href="{root}{route}{code}/index.html" lang="{code}"'+(' aria-current="page"' if code==lang else '')+f'>{code.upper()}</a>' for code in ('en','tr','ru'))+'</span></nav>'
   if lang!='en':
    note={'tr':'Bu sürüm, İngilizce kaynak dersten otomatik olarak çevrilmiştir. Görseller, alıntılar ve ses kayıtları özgün dilinde kalabilir.','ru':'Эта версия автоматически переведена с английского курса. Изображения, цитаты и аудиозаписи могут оставаться на языке оригинала.'}[lang]
