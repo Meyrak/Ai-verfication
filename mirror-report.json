@@ -1,24 +1,45 @@
 {
   "pages": [
-    "index.html"
+    "index.html",
+    "blog/index.html",
+    "en/index.html",
+    "tr/index.html",
+    "module1/en/index.html",
+    "module2/en/index.html",
+    "module3/en/index.html",
+    "module4/en/index.html",
+    "module5/en/index.html",
+    "module6/en/index.html"
   ],
-  "assets": 74,
+  "assets": 174,
   "failures": [
     {
-      "url": "https://kahramanhumeyrafinal.tilda.ws/",
-      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/']' returned non-zero exit status 6."
-    },
-    {
-      "url": "https://kahramanhumeyrafinal.tilda.ws/en",
-      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/en']' returned non-zero exit status 6."
-    },
-    {
-      "url": "https://kahramanhumeyrafinal.tilda.ws/tr",
-      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/tr']' returned non-zero exit status 6."
-    },
-    {
       "url": "https://kahramanhumeyrafinal.tilda.ws/ru",
-      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/ru']' returned non-zero exit status 6."
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/ru']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module1/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module1/tr']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module2/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module2/tr']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module3/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module3/tr']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module4/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module4/tr']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module5/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module5/tr']' returned non-zero exit status 56."
+    },
+    {
+      "url": "https://kahramanhumeyrafinal.tilda.ws/module6/tr",
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '20', 'https://kahramanhumeyrafinal.tilda.ws/module6/tr']' returned non-zero exit status 56."
     }
   ]
 }

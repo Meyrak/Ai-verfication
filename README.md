@@ -17,6 +17,6 @@ No build or package installation is required. All website paths are relative to 
 
 ## Migration notes
 
-See `mirror-report.json` for exactly which pages and assets were copied and any download failures. Pages that could not be downloaded remain linked to the original Tilda website. Tilda-hosted blog feeds, analytics, forms, and embedded services may still depend on Tilda; newsletter submission has not been verified on a new domain. Static hosting alone does not replace those services.
+See `mirror-report.json` for exactly which pages and assets were copied and any download failures. The homepage, English and Turkish landing pages, six English course modules, and blog are hosted locally. The Russian landing page and Turkish module URLs return HTTP 404 on Tilda; their links remain pointed to the original URLs pending publication of the missing source pages. Tilda-hosted blog feeds, analytics, forms, and embedded services may still depend on Tilda; newsletter submission has not been verified on a new domain. Static hosting alone does not replace those services.
 
 The original Tilda markup and scripts are preserved for visual fidelity. Edit the HTML in `dist/` to change the content. `scripts/mirror.py` is an optional download utility; rerunning it overwrites the copied pages.

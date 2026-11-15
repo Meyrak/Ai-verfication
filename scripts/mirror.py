@@ -124,7 +124,7 @@ for local, content in documents.items():
         href = m.group(2)
         p = urlsplit(urljoin(ORIGIN + '/', href))
         target = pages.get(p.path)
-        if (href.startswith('/') or href.startswith(ORIGIN)) and p.netloc == urlsplit(ORIGIN).netloc and target in documents:
+        if (href.startswith('/') or href.startswith(('https://', 'http://'))) and p.netloc == urlsplit(ORIGIN).netloc and target in documents:
             href = relative(target, local) + ('#' + p.fragment if p.fragment else '')
         elif href.startswith('/') and not href.startswith('//'):
             href = ORIGIN + href
